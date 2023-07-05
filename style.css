@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+body {
+    font-family: Belanosima, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Caixa {
+    align-items: center;
+    background-color: #7c3c84;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.A{
+  background-color: #f1e23f;
+  padding: 30px 10px;
+  border-radius: 14px;
+  box-shadow: -10px 8px 1px #442248;
+  color: #5f2b65;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #5f2b65;
+}
+.Log {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+h1{
+    margin: 0;
+    padding: 10px ;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -3px 2px 1px #b6ad5d;
+}
+
+.User,
+.Password {
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 20px;
+    color: #5f2b65;
+    background-color: #f0e88e;
+    box-shadow: -3px 2px 1px #a59e5d;
+}
+
+.User,
+.Password:focus{
+    outline: none;
+}
+
+.Botaum {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    color: #5f2b65;
+    background-color: #f0e88e;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.Botaum:hover {
+    transform: scale(1.06);
+}
+
+span:hover {
+    transform: scale(1.1);
+}
+
+
